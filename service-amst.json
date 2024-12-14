@@ -1,5 +1,13 @@
 {
     "nodes":  [
+                  "SVR3",
+	          "VSN-COMER-SVR1",
+                  "VSN-COMER-SVR2"
+              ],
+    "services":  [
+                     "ncr_mapserver",
+                     "ncr_search",
+		     "listner",
                   "Server-test-main",
 	           "VSN-COMER-SVR1"
               ],
