@@ -1,9 +1,11 @@
 {
     "nodes":  [
-                  "VSN-COMER-SVR1"
+                  "Server-test-main",
+	           "VSN-COMER-SVR1"
               ],
     "services":  [
                      "ncr_mapserver",
+		     "test-service-main",
 		     "ncr_mapserver"
                  ],
     "username":  "visionuser",
