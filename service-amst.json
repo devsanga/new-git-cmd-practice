@@ -7,7 +7,15 @@
     "services":  [
                      "ncr_mapserver",
                      "ncr_search",
-		     "listner"
+		     "listner",
+                  "Server-test-main",
+	           "VSN-COMER-SVR1"
+              ],
+    "services":  [
+                     "ncr_mapserver",
+		     "test-service-main",
+                     "ncr_comms",
+                      "IM-incen"
                  ],
     "username":  "visionuser",
     "password":  "Pa\s/sw$or@d-100"
