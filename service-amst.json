@@ -4,7 +4,8 @@
               ],
     "services":  [
                      "ncr_mapserver",
-                     "ncr_comms"
+                     "ncr_comms",
+                      "IM-incen"
                  ],
     "username":  "visionuser",
     "password":  "Pa\s/sw$or@d-100"
