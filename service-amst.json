@@ -1,10 +1,12 @@
 {
     "nodes":  [
-                  "VSN-COMER-SVR1"
+                  "VSN-COMER-SVR1",
+                  "VSN-COMER-SVR2"
               ],
     "services":  [
                      "ncr_mapserver",
-                     "ncr_comms"
+                     "ncr_comms",
+                     "ncr_search"
                  ],
     "username":  "visionuser",
     "password":  "Pa\s/sw$or@d-100"
