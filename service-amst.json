@@ -4,7 +4,7 @@
               ],
     "services":  [
                      "ncr_mapserver",
-		     "ncr_mapserver"
+                     "ncr_comms"
                  ],
     "username":  "visionuser",
     "password":  "Pa\s/sw$or@d-100"
