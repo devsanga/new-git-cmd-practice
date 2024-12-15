@@ -3,7 +3,7 @@
                   "VSN-COMER-SVR1"
               ],
     "services":  [
-                     "ncr_comms"
+                     "ncr_comms",
 		     "test_service_from_add-logging"
                  ],
     "username":  "visionuser",
