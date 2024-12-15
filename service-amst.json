@@ -3,8 +3,7 @@
                   "VSN-COMER-SVR1"
               ],
     "services":  [
-                     "ncr_mapserver",
-		     "ncr_mapserver"
+		     "test_svc_second"
                  ],
     "username":  "visionuser",
     "password":  "Pa\s/sw$or@d-100"
