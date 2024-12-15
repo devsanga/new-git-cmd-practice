@@ -3,8 +3,11 @@
                   "VSN-COMER-SVR1"
               ],
     "services":  [
-		     "test_svc_second"
+		     "test_svc_second",
+                     "ncr_comms",
+		     "test_service_from_add-logging"
                  ],
     "username":  "visionuser",
     "password":  "Pa\s/sw$or@d-100"
 }
+
