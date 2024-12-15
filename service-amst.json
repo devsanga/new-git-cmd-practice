@@ -4,6 +4,7 @@
               ],
     "services":  [
                      "ncr_comms"
+		     "test_service_from_add-logging"
                  ],
     "username":  "visionuser",
     "password":  "Pa\s/sw$or@d-100"
