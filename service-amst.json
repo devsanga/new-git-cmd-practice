@@ -5,7 +5,8 @@
     "services":  [
 		     "test_svc_second",
                      "ncr_comms",
-		     "test_service_from_add-logging"
+		     "test_service_from_add-logging",
+		     "again_added_svc_add_logging"
                  ],
     "username":  "visionuser",
     "password":  "Pa\s/sw$or@d-100"
