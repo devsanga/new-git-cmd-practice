@@ -1,13 +1,10 @@
 {
     "nodes":  [
-                  "Server-test-main",
-	           "VSN-COMER-SVR1"
+                  "VSN-COMER-SVR1"
               ],
     "services":  [
                      "ncr_mapserver",
-		     "test-service-main",
-                     "ncr_comms",
-                      "IM-incen"
+                     "ncr_mapserver"
                  ],
     "username":  "visionuser",
     "password":  "Pa\s/sw$or@d-100"
