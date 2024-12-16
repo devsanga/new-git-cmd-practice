@@ -4,6 +4,7 @@
     ],
     "services": [
         "ncr_comms",
+		"test_svc",
         "NCRxFer",
 		"ncr_search"
     ],

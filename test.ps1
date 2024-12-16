@@ -43,6 +43,8 @@ function retrievePlainString {
         $secureString = $encryptedString | ConvertTo-SecureString -Key $saltBytes -ErrorAction Stop
         $plainText = [Runtime.InteropServices.Marshal]::PtrToStringAuto(
                         [Runtime.InteropServices.Marshal]::SecureStringToBSTR($secureString)
+						$plainText = retrievePlainString -encryptedString $encryptedString
+						Write-Output "Decrypted Text: $plainText"
                      )
         return $plainText
     } catch {
