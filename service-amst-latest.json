@@ -1,0 +1,15 @@
+{
+    "nodes": [
+        "VSN-AMST-SVR1"
+    ],
+    "services": [
+        "ncr_comms",
+        "ncr_electronic_journal_service",
+        "ncr_incident_management_service",
+        "ncr_mapserver",
+        "ncr_search",
+        "ncr_vision_core_service",
+        "NCRxFer"
+    ],
+    "username": "VSNAPPAMST_SVC@TEST.LOCAL",
+    "password": "PSENC(76492d1116743f0423413b16050a5345MgB8AHIAbQBkAEoAM
