@@ -25,3 +25,28 @@ foreach ($node in $jsonData.nodes) {
         } -ArgumentList $service, $jsonData.username, $decryptedPassword
     }
 }
+
+function retrievePlainString {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$encryptedString,
+
+        [Parameter(Mandatory = $true)]
+        [string]$salt = "default-secret-key"
+    )
+
+    # Convert the salt to a byte array (32 bytes)
+    $saltBytes = [System.Text.Encoding]::UTF8.GetBytes($salt.PadRight(32).Substring(0, 32))
+
+    try {
+        # Decrypt the encrypted string
+        $secureString = $encryptedString | ConvertTo-SecureString -Key $saltBytes -ErrorAction Stop
+        $plainText = [Runtime.InteropServices.Marshal]::PtrToStringAuto(
+                        [Runtime.InteropServices.Marshal]::SecureStringToBSTR($secureString)
+                     )
+        return $plainText
+    } catch {
+        Write-Output "Decryption failed for the provided string: $($_.Exception.Message)"
+        return $null
+    }
+}
